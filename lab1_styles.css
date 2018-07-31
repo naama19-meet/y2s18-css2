@@ -1,5 +1,7 @@
 body {
-    margin: 0;
+    margin: 0px
+    padding: 15px
+
 }
 
 .header {
@@ -14,11 +16,15 @@ body {
 }
 
 .sidebar {
-    width: 180px;
+    width: 165px;
     background: #ff6677;
     position: absolute;
     top: 0;
     height: 100%;
+    padding:5px;
+    padding-top:12px;
+
+
 }
 
 .main-content {
@@ -26,4 +32,10 @@ body {
     position: absolute;
     top: 0;
     left: 200px;
+    border:5px solid blue;
+    margin: 5px;
+    padding: 15px;
+    padding-bottom: 10px;
+
+
 }
